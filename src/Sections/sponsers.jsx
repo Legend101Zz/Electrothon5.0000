@@ -8,16 +8,18 @@ export default function Sponsers() {
       className="w-full px-10 md:px-20 py-16 bg-black text-white text-center 
      "
     >
-      <div className="max-w-[1240px] mx-auto px-2">
-        <h2 className="text-5xl font-bold text-center">Our Sponsers</h2>
-        <p className="text-2xl py-8 text-gray-500 text-center">
+      <div className="max-w-[1240px] mx-auto px-2 bg-black">
+        <h2 className=" bg-black text-5xl font-bold  text-white text-center">
+          Our Sponsers
+        </h2>
+        <p className=" bg-black text-2xl py-8 text-gray-500 text-center">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis,
           ab. Officia sunt nulla aspernatur culpa, eaque tenetur excepturi
           nostrum tempore.
         </p>
 
-        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4 pt-4">
-          <div className="flex">
+        <div className=" bg-black grid sm:grid-cols-2 lg:grid-cols-4 gap-4 pt-4">
+          <div className="flex bg-black">
             <div>
               <FontAwesomeIcon className="w-7 mr-4 text-green-600" />
             </div>

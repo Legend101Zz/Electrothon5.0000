@@ -14,21 +14,25 @@ const Milestones = () => {
       id: 1,
       title: "1.9 K",
       subtitle: "Participants",
+      img: "../assets/about.png",
     },
     {
       id: 2,
       title: "150 K+",
       subtitle: "Lines of Code",
+      img: "../assets/about.png",
     },
     {
       id: 3,
       title: "40+",
       subtitle: "Whose in from oer and a the is ghastly.",
+      img: "../assets/about.png",
     },
     {
       id: 4,
       title: "22+",
       subtitle: "Prize Categories",
+      img: "../assets/about.png",
     },
   ];
 
@@ -67,13 +71,17 @@ const Milestones = () => {
       <br />
       <br />
       <div className="grid lg:grid-cols-4 text-left gap-8 mb-16 ">
-        {facts.map(({ id, title, subtitle }) => (
+        {facts.map(({ id, title, subtitle, img }) => (
           <div
             key={id}
-            className="odd:bg-[#92B8E8] even:bg-[#F09248] text-black p-4 rounded-lg hover:scale-90 duration-300"
+            className="odd:bg-[#92B8E8] even:bg-[#F09248] text-black p-4 rounded-lg "
           >
             <h1 className="text-3xl font-bold mb-2">{title}</h1>
             <p>{subtitle}</p>
+            <div>
+              {" "}
+              <img alt="code" src={img} />
+            </div>
           </div>
         ))}
       </div>

@@ -28,12 +28,12 @@ export default function Navbar() {
               </Link>
             </li>
             <li>
-              <Link to="prizes" smooth={true} offset={-50} duration={500}>
-                PRIZES
+              <Link to="timeline" smooth={true} offset={-50} duration={500}>
+                TIMELINE
               </Link>
             </li>
             <li>
-              <Link to="FAQ" smooth={true} offset={-100} duration={500}>
+              <Link to="faq" smooth={true} offset={-100} duration={500}>
                 FAQ
               </Link>
             </li>

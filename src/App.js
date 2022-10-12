@@ -6,12 +6,12 @@ import Navbar from "./components/UI/Navbar";
 import About from "./Sections/about";
 import Prizes from "./Sections/prizes";
 
-import Milestones from "./Sections/milestones";
 import Speakers from "./Sections/speakers";
 import Accordion from "./Sections/faq";
 import DevApi from "./Sections/about";
 import Timeline from "./Sections/timeline";
 import Sponsers from "./Sections/Sponsors/Sponsors";
+import Milestones from "./Sections/milestone";
 
 function App() {
   return (
@@ -22,9 +22,6 @@ function App() {
 
       <Milestones />
       <Timeline />
-      {/* <Prizes /> */}
-
-      {/* <Speakers /> */}
 
       <Sponsers />
       <Accordion />

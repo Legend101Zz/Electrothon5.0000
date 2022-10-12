@@ -1,21 +1,21 @@
-import React,{ useEffect } from "react";
-import heropic from "../../assets/2112.w026.n002.1265B.p1.1265.jpg";
+import React, { useEffect } from "react";
+import heropic from "../../assets/hero.webp";
 
 export default function Hero() {
   useEffect(() => {
-    const script = document.createElement('script');
-    script.src = 'https://apply.devfolio.co/v2/sdk.js';
+    const script = document.createElement("script");
+    script.src = "https://apply.devfolio.co/v2/sdk.js";
     script.async = true;
     script.defer = true;
     document.body.appendChild(script);
     return () => {
       document.body.removeChild(script);
-    }
-}, []);
+    };
+  }, []);
   return (
     <div name="home" className="w-full h-[90vh] top-[90px]">
       <img
-        className="object-cover h-full w-full absolute -z-10"
+        className="object-cover  object-center h-full w-full absolute -z-10"
         src={heropic}
         alt="hero"
       />
@@ -42,9 +42,7 @@ export default function Hero() {
         ></div> */}
       </div>
       <div>
-        <p className="text-center text-white text-2xl font-bold">
-          Total participants: 5000 and counting...
-        </p>
+        <p className="text-center text-white text-2xl font-bold"></p>
       </div>
     </div>
   );

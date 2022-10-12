@@ -2,24 +2,24 @@ import React from "react";
 import { SiHiveBlockchain, SiStrapi, SiFsecure } from "react-icons/si";
 import { VscServerProcess } from "react-icons/vsc";
 import AboutCard from "./aboutCard";
-import codeImage from "../assets/code.jpg";
+import codeImage from "../assets/rocket@4x.png";
 import PageSection from "./PageSection";
 
 export default function About() {
   return (
-    <div name="about" className="w-full bg-black text-white text-center">
-      <div className="w-full mx-auto px-10 lg:px-20 py-16 ">
+    <div name="about" className="w-full bg-black text-white text-center ">
+      <div className="w-full mx-auto px-10 lg:px-20 py-65  mb-[6rem]">
         <div>
-          <div className="mt-3 bg-black text-white text-center">
+          <div className="mt-0 bg-black gap-0 text-white text-center">
             <PageSection
               name="ABOUT US"
               title="ABOUT US"
               subtitle={`"SOCIETY FOR PROMOTION OF ELECTRONICS CULTURE"`}
             >
-              <div className=" w-full bg-black text-white text-center flex flex-col lg:flex-row items-center justify-center gap-8">
+              <div className=" w-full bg-black text-white text-center flex flex-col lg:flex-row items-center justify-center gap-8  ">
                 {/* left */}
 
-                <div className="flex flex-col gap-4 w-full lg:w-1/2 p-8 bg-gray-900 rounded-lg">
+                <div className="flex flex-col mb-14 gap-14 w-full lg:w-1/2 p-8 bg-gray-900 rounded-lg">
                   <p className="border-l-4 pl-4 odd:border-thOrange even:border-thBlue">
                     Electrothon is a student-run hackathon, under the aegis of
                     the National Institute of Technology Hamirpur, India.
@@ -35,11 +35,11 @@ export default function About() {
                   </p>
                 </div>
                 {/* right */}
-                <div className="w-full lg:w-1/2 lg:rotate-6 duration-300 hover:rotate-0">
+                <div className="w-full lg:w-1/2 ">
                   <img
                     src={codeImage}
                     alt="code"
-                    className="rounded-lg shadow-lg shadow-cyan-500/50"
+                    className="transition-shadow  "
                   />
                 </div>
               </div>

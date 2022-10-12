@@ -2,7 +2,7 @@ import React from "react";
 
 export default function timeline() {
   return (
-    <div className="w-full bg-black text-white text-center">
+    <div name="timeline" className="w-full bg-black text-white text-center ">
       <div className="container bg-black mx-auto w[2000px] h[2000px]">
         <br />
         <h1>Timeline</h1>
